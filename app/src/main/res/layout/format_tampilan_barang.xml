@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rela01"
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="80dp"
+            android:id="@+id/kodebrg"
+            android:hint="kode"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/namabrg"
+            android:hint="nama"
+            android:layout_toRightOf="@+id/kodebrg"
+            android:layout_width="180dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/satuanbrg"
+            android:hint="satuan"
+            android:layout_toRightOf="@+id/namabrg"
+            android:layout_width="70dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/hargabrg"
+            android:hint="harga"
+            android:layout_toRightOf="@+id/satuanbrg"
+            android:layout_width="90dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/kotabrg"
+            android:hint="harga"
+            android:layout_toRightOf="@+id/hargabrg"
+            android:layout_width="90dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
